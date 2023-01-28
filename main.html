@@ -9,24 +9,30 @@
 </head>
 
 <body>
+	<button type="button" class="btn btn-primary" id="open-modal" data-bs-toggle="modal" data-bs-target="#newton-modal">
+		Launch demo modal
+	</button>
 	<!-- the entire body must be written by student -->
-<div class="modal" id="accio-model" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">New Modal</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam nemo voluptate placeat suscipit vel quae ipsam consequatur aspernatur, odit quos quaerat voluptatum delectus veritatis ducimus repudiandae molestiae omnis assumenda nam.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" id="open-modal"data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" id="open-modal">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+	<div class="modal-dialog modal-dialog-centered" id="accio-modal">
+		<div class="modal fade" id="newton-modal" tabindex="-1" aria-labelledby="newton-modalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="newton-modalLabel">New Modal</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt laudantium laboriosam delectus eum unde corporis vel. Provident, accusantium asperiores sit molestiae voluptatem quam cum amet?</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
